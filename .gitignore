@@ -1,0 +1,35 @@
+# 编译产物
+*.exe
+*.exe~
+*.out
+frp_mc_start.exe
+
+# 自动生成的 frpc 配置
+frpc.toml
+
+# 配置文件（含敏感信息）
+config.json
+
+# release 打包目录
+release/
+
+# 非 frp 功能文件
+service_status_private.py
+.github/
+
+# 调试
+*.log
+
+# 压缩包
+*.7z
+*.zip
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统
+Thumbs.db
+.DS_Store
